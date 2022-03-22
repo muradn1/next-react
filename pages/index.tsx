@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import MyComp from '../components/my-comp/MyComp'
+import MyCounter from '../components/my-counter/MyCounter'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
       <MyComp></MyComp>
+      <MyCounter />
       </main>
 
       <footer className={styles.footer}>
